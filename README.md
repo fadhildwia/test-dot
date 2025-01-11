@@ -48,3 +48,20 @@ export default tseslint.config({
   },
 })
 ```
+
+
+## Setup Instructions
+
+1. **Copy the Environment File**  
+   Make sure to copy the `env.example` file to create your own `.env` file. This file is necessary for the application to run properly.
+
+   ```bash
+   cp env.example .env
+   ```
+
+2. **Login Credentials**  
+   The default login credentials are as follows:
+   - **Username**: admin
+   - **Password**: admin
+
+   Please change these credentials after your first login for security purposes.
