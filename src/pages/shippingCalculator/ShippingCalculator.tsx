@@ -214,6 +214,9 @@ const ShippingCalculator: React.FC = () => {
               <div className="shipping-results">
                 {shippingResults.map((result, index) => (
                   <div key={index} className="shipping-result">
+                    <div className="service-name">
+                      {result.name}
+                    </div>
                     {result.costs.map((cost, costIndex) => (
                       <div key={costIndex} className="service-option">
                         <div className="service-name">
