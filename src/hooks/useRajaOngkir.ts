@@ -21,8 +21,8 @@ export const useCalculateShipping = () => {
     ShippingCost[],
     Error,
     {
-      origin_city_id: string;
-      destination_city_id: string;
+      origin: string;
+      destination: string;
       weight: number;
       courier: string;
     }

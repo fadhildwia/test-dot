@@ -48,8 +48,8 @@ export const rajaOngkirApi = {
   },
 
   calculateShipping: async (params: {
-    origin_city_id: string;
-    destination_city_id: string;
+    origin: string;
+    destination: string;
     weight: number;
     courier: string;
   }) => {

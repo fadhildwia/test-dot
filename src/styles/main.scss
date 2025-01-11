@@ -94,6 +94,7 @@ body {
   padding: 2rem;
   max-width: 800px;
   margin: 0 auto;
+  color: black;
 
   .shipping-form {
     background: white;
@@ -117,5 +118,24 @@ body {
         border-bottom: none;
       }
     }
+  }
+  .service-option {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  
+  .service-name {
+    font-weight: bold;
+  }
+  
+  .service-cost {
+    text-align: right;
+  }
+  
+  .etd {
+    font-size: 0.9em;
+    color: #666;
   }
 } 
